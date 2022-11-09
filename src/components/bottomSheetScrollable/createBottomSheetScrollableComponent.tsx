@@ -165,6 +165,7 @@ export function createBottomSheetScrollableComponent<T, P>(
           <ScrollableComponent
             animatedProps={scrollableAnimatedProps}
             {...rest}
+            showsVerticalScrollIndicator={showsVerticalScrollIndicator}
             scrollEventThrottle={16}
             ref={scrollableRef}
             overScrollMode={overScrollMode}
